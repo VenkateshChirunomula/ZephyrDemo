@@ -19,7 +19,7 @@ public class Test_001 {
 		driver = new ChromeDriver();
 		driver.get("https://palluser:pall1234@stage-shop.pall.com/us/en");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-				try {
+		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
