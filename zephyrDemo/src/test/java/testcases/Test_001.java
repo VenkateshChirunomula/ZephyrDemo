@@ -23,7 +23,7 @@ public class Test_001 {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		
+		}
 		driver.findElement(By.id("onetrust-accept-btn-handler")).click();
 	}
 	@Test(priority = 1)
